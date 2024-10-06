@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certificates">Certificates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#achievements">Achievements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <img src="magesha.jpeg" class="rounded-circle mb-4" alt="Profile Picture" width="150">
+            <h1>Welcome to My Portfolio</h1>
+            <p class="lead">Software Student | Developer | Learner</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h2>About Me</h2>
+            <p class="lead">Hi! I'm a passionate software development student. I love learning new technologies and applying them to solve real-world problems.</p>
+            <p>I am currently pursuing a B Voc in Software and Application Development and have experience with web technologies like HTML, CSS, JavaScript, Python, and more.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-laptop-code fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">Front-End Development</h5>
+                            <p class="card-text">HTML, CSS, JavaScript, Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-server fa-3x text-success mb-3"></i>
+                            <h5 class="card-title">Back-End Development</h5>
+                            <p class="card-text">Node JS, Django, Python</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-tools fa-3x text-warning mb-3"></i>
+                            <h5 class="card-title">Tools & Technologies</h5>
+                            <p class="card-text">Git, GitHub</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Projects</h2>
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="maxresdefault.jpg" class="card-img-top" alt="HTML Portfolio Website">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML Portfolio Website</h5>
+                            <p class="card-text">A portfolio website built using HTML, CSS, and JavaScript to showcase my projects and skills.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="Python-Projects-800x391.png" class="card-img-top" alt="Python Project">
+                        <div class="card-body">
+                            <h5 class="card-title">Expense Tracker PWA</h5>
+                            <p class="card-text">A Progressive Web App (PWA) built using Google Pay API to track personal expenses in real time.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="maxresdefault (1).jpg" class="card-img-top" alt="Web Scraper">
+                        <div class="card-body">
+                            <h5 class="card-title">Python Web Scraper</h5>
+                            <p class="card-text">A Python-based web scraper that extracts real-time data from websites for analysis and data collection.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="weather.jpg" class="card-img-top" alt="Weather App">
+                        <div class="card-body">
+                            <h5 class="card-title">Weather App</h5>
+                            <p class="card-text">A Python app that fetches real-time weather data using the OpenWeather API and displays current conditions and a forecast.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="bg-light py-5">
+            <div class="container">
+                <h2 class="text-center">Certificates</h2>
+                <div class="row">
+                    <!-- Certificate 1 -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="cert1.png" class="card-img-top" alt="Certificate 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Full Stack Web Development</h5>
+                                <p class="card-text">Certified in Full Stack Web Development by XYZ Academy, focusing on both front-end and back-end technologies.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Certificate 2 -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="cert2.jpg" class="card-img-top" alt="Certificate 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Python Programming</h5>
+                                <p class="card-text">Certified in Python Programming from ABC Institution, with experience in data analysis and automation projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Achievements Section -->
+        <section id="achievements" class="py-5">
+            <div class="container">
+                <h2 class="text-center">Achievements</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">First place in the Coding Hackathon at XYZ College.</li>
+                    <li class="list-group-item">Developed a Python-based automation tool that was adopted by my college for lab management.</li>
+                    <li class="list-group-item">Contributed to open-source projects, including bug fixes and feature enhancements on GitHub.</li>
+                </ul>
+            </div>
+        </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-primary text-white py-5">
+        <div class="container text-center">
+            <h2>Contact Me</h2>
+            <p class="lead">I'd love to connect! Feel free to reach out.</p>
+            <ul class="list-unstyled">
+                <li><i class="fas fa-envelope"></i> <strong>Email:</strong> sohanshaivas@gmail.com</li>
+                <li><i class="fab fa-github"></i> <strong>GitHub:</strong> <a href="#" class="text-white">github.com/sohanvanitha</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="text-center py-3 bg-dark text-white">
+        <div class="container">
+            <p>&copy; 2024 Sohan - All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
